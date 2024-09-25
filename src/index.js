@@ -7,21 +7,26 @@ import reportWebVitals from './reportWebVitals';
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Remaining from "./pages/Remaining";
+import Bpm from "./pages/Bpm";
 import NoPage from "./pages/NoPage";
+
+import 'flowbite';
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="remaining" element={<Remaining />} />
-          {/* <Route path="blogs" element={<Blogs />} /> */}
-          {/* <Route path="contact" element={<Contact />} /> */}
-          <Route path="*" element={<NoPage />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <div className='sm:ml-64 ml-0 bg-stone-900'>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="remaining" element={<Remaining />} />
+            <Route path="bpm" element={<Bpm />} />
+            {/* <Route path="contact" element={<Contact />} /> */}
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
