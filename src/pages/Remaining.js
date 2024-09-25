@@ -17,7 +17,7 @@ export default function Remaining() {
     return (
         <div className="mx-auto max-w-3xl md:px-4 lg:px-10 pt-4 pb-6 px-4 min-h-screen">
             <section className="bg-stone-800 rounded-lg border-2 border-stone-700">
-                <div className="py-8 px-4 mx-auto max-w-2xl lg:py-16">
+                <div className="py-8 px-4 mx-auto max-w-2xl">
                     <h2 className="mb-1 text-xl font-bold text-stone-300">Time Remaining</h2>
                     <h2 className="mb-6 text-md font-regular text-stone-300">How much longer will my animation take to finish rendering</h2>
                     <form onSubmit={handleSubmit}>
