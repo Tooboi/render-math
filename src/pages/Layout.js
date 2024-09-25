@@ -16,7 +16,7 @@ const Layout = () => {
                         <li>
                             <Link to="/" className="flex items-center p-2 text-base font-normal text-stone-300 rounded-lg hover:bg-stone-700 transition group">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fdeded" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-grid-2x2-check"><path d="M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3" /><path d="m16 19 2 2 4-4" /></svg>
-                                <span className="ml-3 text-lg font-semibold">Render Math</span>
+                                <span className="ml-3 text-2xl font-semibold">RenderLogic</span>
                             </Link>
                         </li>
                         <li>

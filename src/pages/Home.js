@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="mx-auto max-w-3xl md:px-4 lg:px-10 pt-8 pb-6 px-4 min-h-screen">
-      <h1 className="text-center text-3xl select-none tracking-tight font-semibold text-stone-400 pb-8">Render Math</h1>
+    <div className="mx-auto max-w-3xl md:px-4 lg:px-10 pt-4 lg:pt-8 pb-6 px-4 min-h-screen">
+      <h1 className="text-center text-3xl select-none tracking-tight font-semibold text-stone-400 pb-8 sm:hidden">RenderLogic</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <div>
           <Link to="/remaining" className="w-full">
@@ -44,7 +44,7 @@ const Home = () => {
                 stroke-linejoin="round"
                 className="mx-auto mt-4 stroke-teal-500"><line x1="10" x2="14" y1="2" y2="2" /><line x1="12" x2="15" y1="14" y2="11" /><circle cx="12" cy="14" r="8" /></svg>
               <div className="w-full text-center pt-1 font-semibold text-xl text-teal-300 group-hover:text-teal-200">Animation Duration</div>
-              <div className="w-full text-center pt-0 font-regular text-sm text-teal-500">How long will my animation be</div>
+              <div className="w-full text-center pt-0 font-regular text-sm text-teal-500 truncate">How long will my animation be</div>
             </div>
           </Link>
         </div>
