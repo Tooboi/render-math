@@ -62,7 +62,7 @@ export default function Remaining() {
                                 />
                             </label>
                         </div>
-                        <button type="submit" className="mt-8 btn btn-secondary rounded-lg text-lg">
+                        <button type="submit" className="mt-8 btn btn-secondary rounded-lg">
                             Calculate
                         </button>
                     </form>
