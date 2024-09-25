@@ -8,6 +8,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Remaining from "./pages/Remaining";
 import Bpm from "./pages/Bpm";
+import Duration from "./pages/Duration";
 import NoPage from "./pages/NoPage";
 
 import 'flowbite';
@@ -21,6 +22,7 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="remaining" element={<Remaining />} />
             <Route path="bpm" element={<Bpm />} />
+            <Route path="duration" element={<Duration />} />
             {/* <Route path="contact" element={<Contact />} /> */}
             <Route path="*" element={<NoPage />} />
           </Route>
