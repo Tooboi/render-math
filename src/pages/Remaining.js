@@ -15,7 +15,7 @@ export default function Remaining() {
     };
 
     return (
-        <div className="mx-auto max-w-3xl md:px-4 lg:px-10 pt-4 pb-6 px-4 min-h-screen">
+        <div className="mx-auto max-w-3xl md:px-4 lg:px-10 pt-4 pb-6 px-4 lg:pt-16 min-h-screen transition-all">
             <section className="bg-stone-800 rounded-lg border-2 border-stone-700">
                 <div className="py-8 px-4 mx-auto max-w-2xl">
                     <h2 className="mb-1 text-xl font-bold text-stone-300">Time Remaining</h2>
@@ -62,7 +62,7 @@ export default function Remaining() {
                                 />
                             </label>
                         </div>
-                        <button type="submit" className="mt-8 btn btn-secondary rounded-lg">
+                        <button type="submit" className="mt-8 btn btn-secondary rounded-lg text-lg">
                             Calculate
                         </button>
                     </form>

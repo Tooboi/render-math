@@ -15,31 +15,34 @@ const Layout = () => {
                     <ul className="space-y-2">
                         <li>
                             <Link to="/" className="flex items-center p-2 text-base font-normal text-stone-300 rounded-lg hover:bg-stone-700 transition group">
-                                <svg aria-hidden="true" className="w-6 h-6 text-stone-500 transition duration-75 group-hover:text-stone-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path><path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path></svg>
-                                <span className="ml-3">Home</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fdeded" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-grid-2x2-check"><path d="M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3" /><path d="m16 19 2 2 4-4" /></svg>
+                                <span className="ml-3 text-lg font-semibold">Render Math</span>
                             </Link>
                         </li>
                         <li>
                             <button type="button" className="flex items-center p-2 w-full text-base font-normal text-stone-300 rounded-lg hover:bg-stone-700 transition group" aria-controls="dropdown-pages" data-collapse-toggle="dropdown-pages">
-                                <svg aria-hidden="true" className="w-6 h-6 text-stone-500 transition duration-75 group-hover:text-stone-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path></svg>
-                                <span className="flex-1 ml-3 text-left whitespace-nowrap">Time</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fdeded" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hourglass"><path d="M5 22h14" /><path d="M5 2h14" /><path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22" /><path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" /></svg>
+                                <span className="flex-1 ml-3 text-left text-lg font-semibold whitespace-nowrap">Time</span>
                                 <svg aria-hidden="true" className="w-6 h-6 text-stone-500 transition duration-75 group-hover:text-stone-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                             </button>
                             <ul id="dropdown-pages" className="hidden py-2 space-y-2">
                                 <li>
-                                    <Link to="/remaining" className="flex items-center p-2 text-base font-normal text-stone-300 rounded-lg hover:bg-stone-700 transition group">Time Remaining</Link>
+                                    <Link to="/remaining" className="flex items-center p-2 text-base font-normal text-stone-300 rounded-lg hover:border-stone-600 hover:ring-2 ring-stone-600 bg-stone-700 active:ring-stone-700 transition group">Time Remaining</Link>
+                                </li>
+                                <li>
+                                    <Link to="/duration" className="flex items-center p-2 text-base font-normal text-stone-300 rounded-lg hover:border-stone-600 hover:ring-2 ring-stone-600 bg-stone-700 active:ring-stone-700 transition group">Animation Duration</Link>
                                 </li>
                             </ul>
                         </li>
                         <li>
                             <button type="button" className="flex items-center p-2 w-full text-base font-normal text-stone-300 rounded-lg hover:bg-stone-700 transition group" aria-controls="dropdown-sales" data-collapse-toggle="dropdown-sales">
-                                <svg aria-hidden="true" className="w-6 h-6 text-stone-500 transition duration-75 dark:text-stone-400 group-hover:text-stone-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"></path></svg>
-                                <span className="flex-1 ml-3 text-left whitespace-nowrap">Audio</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fdeded" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-audio-lines"><path d="M2 10v3" /><path d="M6 6v11" /><path d="M10 3v18" /><path d="M14 8v7" /><path d="M18 5v13" /><path d="M22 10v3" /></svg>
+                                <span className="flex-1 ml-3 text-left text-lg font-semibold whitespace-nowrap">Audio</span>
                                 <svg aria-hidden="true" className="w-6 h-6 text-stone-500 transition duration-75 group-hover:text-stone-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                             </button>
                             <ul id="dropdown-sales" className="hidden py-2 space-y-2">
                                 <li>
-                                    <Link to="bpm" className="flex items-center p-2 text-base font-normal text-stone-300 rounded-lg hover:bg-stone-700 transition group">BPM to FPS</Link>
+                                    <Link to="bpm" className="flex items-center p-2 text-base font-normal text-stone-300 rounded-lg hover:border-stone-600 hover:ring-2 ring-stone-600 bg-stone-700 active:ring-stone-700 transition group">BPM to FPS</Link>
                                 </li>
                             </ul>
                         </li>
